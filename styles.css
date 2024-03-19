@@ -118,11 +118,12 @@ body
   font-size: 14px; 
   border: 1px solid #D6D9DC;
   -webkit-appearance: none; 
+  outline: none;
  }
  
  .form-row select:focus
  {
-  border: 3px solid black;
+  border: 3px solid #D6D9DC;
  }
  
  .form-row textarea {
@@ -134,15 +135,28 @@ body
   margin-bottom: 10px;
   padding: 7px;
   resize: none;
+  outline: none;
  }
 
- .form-row .instructions {
+ .form-row .instructions 
+ {
   color: #999999;
   font-size: 14px;
   margin-bottom: 30px;
+  outline: none;
 }
 
+#date
+{
+  border: 1px solid #999999;
+  padding: 10px;
+  outline: none;
+}
 
+#date:focus
+{
+  border: 3px solid #D6D9DC;
+}
 
 @media only screen and (min-width: 700px)
 {
