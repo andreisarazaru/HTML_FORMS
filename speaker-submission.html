@@ -42,9 +42,34 @@
       <input id = 'talk-type-2' name = 'talk-type' type = 'radio' value = 'workshop' />
       <label for = 'talk-type-2' class = 'radio-label'>Workshop</label>
     </fieldset>
+
+  <div class = "form-row">
+    <label for = "session-length">Preferred Session Length:</label>
+    <select id = "session-length" name = "session-length">
+      <option value = "thirty-minutes">30 minutes</option>
+      <option value = "forty-five-minutes">45 minutes</option>
+      <option value = "one-hour">1 hour</option>
+      <option value = "one-hour-and-thirty-minutes">1 hour and 30 minutes</option>
+      <option value = "two-hours">2 hours</option>
+    </select>
+
+    <div class = "form-row">
+      <label for = "speaker-topic">Topic:</label>
+      <select id = "speaker-topic" name = "speaker-topic">
+        <option value = "science-technology">Science/Technology</option>
+        <option value = "politics">Politics</option>
+        <option value = "finance">Finance</option>
+        <option value = "personal-development">Personal Development</option>
+        <option value = "environment">Environment</option>
+      </select>
+   </div>
+
+   <div class = "form-row">
+    <label for = "topic-scope"></label>
+    <textarea id = "topic-scope" name = "topic-scope" placeholder= "My chosen topic is about..."></textarea>
+    <div class = "instructions">Explain the scope of your topic in 500 words or less</div>
+  </div>
   </form>
-
-
 
 </body>
 </html>
